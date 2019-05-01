@@ -4,10 +4,11 @@ import { Provider } from 'react-redux'
 import { store } from './js/redux/store/store';
 import App from './App';
 import * as serviceWorker from './js/utils/serviceWorker';
+import { CONFIG } from './js/app/config';
 
-ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(
+	<Provider store={store}><App /></Provider>,
+	CONFIG.DOM_TARGET,
+);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();

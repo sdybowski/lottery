@@ -1,0 +1,1 @@
+export { CHANGE_PATH } from './pathActions';
