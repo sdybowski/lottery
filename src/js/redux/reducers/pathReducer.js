@@ -1,4 +1,4 @@
-import { CHANGE_PATH } from '../actions/index';
+import { CHANGE_PATH } from '../actions/pathActions';
 
 const initialState = { path: '/' };
 
