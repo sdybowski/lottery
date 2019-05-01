@@ -1,20 +1,23 @@
-import React, {Component} from 'react';
-import SelectField from './components/SelectField'
-import './App.css';
+import React from 'react';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <div className="container">
-                    <div className="jumbotron">
-                        <h1>Lottery</h1>
-                        <SelectField/>
-                    </div>
-                </div>
-            </div>
-        );
-    }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;
