@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "connected-react-router": "^6.4.0",
+    "eslint": "^5.16.0",
     "history": "^4.9.0",
     "lodash": "^4.17.11",
     "react": "^16.8.6",
